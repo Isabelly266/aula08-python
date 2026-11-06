@@ -1,0 +1,10 @@
+faturamento = 0
+
+for numero_faturamentos in range(1, 7):
+    valor = float(input("Digite o faturamento do mes: R$"))
+    total = valor + faturamento
+
+media = total / 6
+
+print("Faturamento mensal: R$", total)
+print("Média mensal: R$", media)
